@@ -1,20 +1,95 @@
 body{
     margin: 0 auto;
-    padding: 0%;
+    font-family: 'Ubuntu';
+}   
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h3{
+    text-align: center;
 }
 
-header{
-  background-color: orangered;
-  display: flex;  
-  justify-content: space-between;
-
+h4{
+    padding-top: 40px;
 }
 
 img{
-    max-width: 200px;
-    max-height: 400px;
+    max-width:  100px; 
 }
 
-ul{
-    list-style: none;
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*STYLING THE TOP-HEADER*/
+
+#top-header{
+    background-color: #0A2647;
+    text-align: center;
+}
+
+.navbar{
+   padding: 0 0 2.5rem;
+}
+
+.nav-link{
+    color: aliceblue !important;
+}
+
+.social-icon{
+    padding: 5px;
+}
+
+/* PRESENTATION SECTION*/
+
+#presentation{
+    color: aliceblue;
+}
+
+#logo{
+border-radius: 100%;
+}
+
+.myname{
+    font-family: 'Montserrat Alternates-Bold';
+    font-size:1.5rem ;
+    line-height:1.5 ;
+    color: #86E5FF;
+}
+
+#btn-portafolio{
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+/*ABPUT ME SECTION*/
+
+.skill-icon{
+    color: #0A2647;
+    padding: 5%;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat Alternates-Bold';
+}
+
+.skill-icon:HOVER{
+    color:#2C74B3 ;
+}
+
+/*PROJECTS*/
+
+#projects{
+    background-color:#2C74B3 ;
+}
+
+.carousel-item{
+    height: 600px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.project-img{
+    width: 360px;
+    height: 260px;
 }
