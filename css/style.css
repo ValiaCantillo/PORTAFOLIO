@@ -16,7 +16,7 @@ h4{
 }
 
 img{
-    max-width:  100px; 
+    max-width:  150px; 
 }
 
 .container-fluid{
@@ -64,24 +64,24 @@ border-radius: 100%;
     margin-bottom: 20px;
 }
 
-/*ABPUT ME SECTION*/
+/*SKILL SECTION*/
+#skills-sect{
+    background-color:#2C74B3 ;
+}
 
 .skill-icon{
     color: #0A2647;
-    padding: 5%;
+    padding: 10%;
     margin-bottom: 1rem;
     font-family: 'Montserrat Alternates-Bold';
+    
 }
 
 .skill-icon:HOVER{
-    color:#2C74B3 ;
+    color:#839fb9 ;
 }
 
 /*PROJECTS*/
-
-#projects{
-    background-color:#2C74B3 ;
-}
 
 .carousel-item{
     height: 600px;
